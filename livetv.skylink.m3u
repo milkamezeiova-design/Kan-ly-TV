@@ -1,100 +1,228 @@
 #EXTM3U
-#EXTINF:0 tvg-id="7a55634018be710a62bbf1750443a199" tvg-name="Jednotka HD" channel-id="1" tvg-logo="https://picons.cmshulk.com/picons/jednotka.png" group-title="" catchup="vod" catchup-source="default",Jednotka HD
-http://212.102.38.45/live/test_jednotka_25p/playlist.m3u8
-#EXTINF:0 tvg-id="584c86a108172efc9c27af06eb3d4652" tvg-name="Dvojka HD" channel-id="2" tvg-logo="https://picons.cmshulk.com/picons/dvojka.png" group-title="" catchup="vod" catchup-source="default",Dvojka HD
-http://212.102.38.45/live/test_dvojka_25p/playlist.m3u8
-#EXTINF:0 tvg-id="336e46bf4276e77a716e494c6285d5db" tvg-name="Markiza HD" channel-id="3" tvg-logo="https://picons.cmshulk.com/picons/markizahd.png" group-title="" catchup="vod" catchup-source="default",Markiza HD
-http://212.102.38.45/live/test_markiza_25p/playlist.m3u8
-#EXTINF:0 tvg-id="84a2364ade7443e6d6afe03f9aa2361a" tvg-name="TV JOJ HD" channel-id="4" tvg-logo="https://picons.cmshulk.com/picons/tvjojhd.png" group-title="" catchup="vod" catchup-source="default",TV JOJ HD
-http://212.102.38.45/live/test_joj_25p/playlist.m3u8
-#EXTINF:0 tvg-id="c27ae0d760a6c999ab212f93c764ae4e" tvg-name="CANAL+ Action" channel-id="5" tvg-logo="https://picons.cmshulk.com/picons/canalplusactionhd.png" group-title="" catchup="vod" catchup-source="default",CANAL+ Action
+#EXTINF:0 type="stream" channelId="4099" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDHQMIBC/847-jednotka-hd.png", Jednotka HD
+http://88.212.15.30:80/live/test_jednotka_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4146" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDIAMIBC/848-dvojka-hd.png", Dvojka HD
+http://88.212.15.30:80/live/test_dvojka_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4044" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BC4AOIBC/952-markiza-hd.png", Markíza HD
+http://88.212.15.30:80/live/test_markiza_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4070" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCXAMIBC/814-joj-hd.png", JOJ HD
+http://88.212.15.30:80/live/test_joj_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4222" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCYAMIBC/816-joj-plus-hd.png", Plus HD
+http://88.212.15.30:80/live/test_pluska_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4223" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCYAMIBC/818-wau-hd.png", JOJ KRIMI HD
+http://88.212.15.30:80/live/test_wau_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4221" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BC5AOIBC/954-doma-hd.png", Doma HD
+http://88.212.15.30:80/live/test_doma_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4111" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BC5QOIBC/955-dajto-hd.png", DAJTO HD
+http://88.212.15.30:80/live/test_dajto_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4621" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDTAOIBC/998-amc-hd.png", AMC HD
+http://88.212.15.30:80/live/test_amc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4601" group="TV" logo="https://files.cdn.magio.tv/tv_logos/v2/big_screen/bbc-first-hd.svg", BBC EARTH HD
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:BC:D6:53&stream=2478945&extension=ts&play_token=siOgOm1Nde
+#EXTINF:0 type="stream" channelId="4557" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BC4QOIBC/953-markiza-krimi-hd.png", Markíza KRIMI HD
+http://88.212.15.30:80/live/test_markiza_krimi_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4602" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCUBAIBC/2088-markiza-klasik-hd.png", Markíza Klasik HD
+http://88.212.15.30:80/live/markiza_klasik_hevc/index.m3u8
+#EXTINF:0 type="stream" channelId="3929" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCWQMIBC/813-joj-cinema-hd.png", JOJ Cinema
+http://88.212.15.30:80/live/test_joj_cinema_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDBAYIBC/1602-joj-svet-hd.png", JOJ Svet
+http://88.212.15.30:80/live/test_joj_svet/playlist.m3u8
+#EXTINF:0 type="stream" channelId="3019" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BD3AKIBC/758-ta3-hd.png" size="Medium", TA3 HD
+http://88.212.15.30:80/live/test_ta3_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2945" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDTQKIBC/743-ct1-hd.png" size="Medium", CT1
+http://88.212.15.30:80/live/test_ct1_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2972" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDOBEIBC/2396-ct2-hd.png" size="Medium", CT2
+http://88.212.15.30:80/live/test_ct2_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2952" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDZQKIBC/755-prima-plus-hd.png", Prima FHD
+http://88.212.15.30:80/live/prima_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2931" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDPQMIBC/863-prima-cool-hd.png", Prima COOL
+http://88.212.15.30:80/live/prima_cool_cz_hevc/index.m3u8
+#EXTINF:0 type="stream" channelId="3946" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDRAMIBC/866-prima-krimi-hd.png", Prima KRIMI
+http://88.212.15.30:80/live/test_prima_krimi_cz/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2932" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDQAMIBC/864-prima-love-sk-hd.png", Prima LOVE
+http://88.212.15.30:80/live/prima_love_cz_hevc/index.m3u8
+#EXTINF:0 type="stream" channelId="2955" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDQQMIBC/865-prima-max-hd.png", Prima MAX
+http://88.212.15.30:80/live/test_prima_max_cz/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/primashow.png?raw=true", Prima Show
+http://88.212.15.30:80/live/prima_show_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/primastar.png?raw=true", Prima Star
+http://88.212.15.30:80/live/prima_star_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2953" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/primazoom.png?raw=true", Prima ZOOM
+http://88.212.15.30:80/live/test_prima_zoom_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2962" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/nova.png?raw=true", Nova HD
+http://88.212.15.30:80/live/nova_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2964" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/novacinemahd.png?raw=true", Nova Cinema HD
+http://88.212.15.30:80/live/nova_cinema_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/novaactionhd.png?raw=true", Nova Action HD
+http://88.212.15.30:80/live/nova_action_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/novafunhd.png?raw=true", Nova Fun HD
+http://88.212.15.30:80/live/nova_fun_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/novagoldt2.png?raw=true", Nova Krimi HD
+http://88.212.15.30:80/live/nova_gold_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/novaladyhd.png?raw=true", Nova Lady HD
+http://88.212.15.30:80/live/test_nova_lady_hevc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV", Televize Seznam HD
+http://88.212.15.30:80/live/test_seznam_tv_atktv/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV", FVIFF.TV
+http://antik.streaming.tivio.studio/channels/HC7JIqyyvQMl0mnqbbnI/07950340-dedf-4aa7-97ae-0c662e103c5a/v1080/index.m3u8?version=2
+#EXTINF:0 type="stream" channelId="2246" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCTQMIBC/807-axn.png", AXN HD
+http://88.212.15.30:80/live/test_axn/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1575", AXN Black
+http://88.212.15.30:80/live/test_black/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1574", AXN White
+http://88.212.15.30:80/live/test_white/playlist.m3u8
+#EXTINF:0 type="stream" channelId="4565" group="TV" logo="", CANAL+ Action HD
 http://142.132.205.242:8080/CA/video.m3u8?token=8cd42917778958ac401318dd4968d644
-#EXTINF:0  tvg-id="ba551cee37d621f3a459d798ae881e5e" tvg-name="CANAL+ Sport (SK)" channel-id="6" tvg-logo="https://picons.cmshulk.com/picons/canalplussport.png" group-title="" catchup="vod" catchup-source="default",CANAL+ Sport (SK)
+#EXTINF:0 type="stream" channelId="4326" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDUAOIBC/1000-epic-drama-hd.png", Viasat Epic Drama HD
+http://kong.3443.site:11500/674e4d8808aa33918f3c852f1b30d9e1/index.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="1330" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/hbohd.png?raw=true" size="Medium", HBO HD
+http://88.212.15.30:80/live/test_hbo_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="935" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/hbo2hd.png?raw=true", HBO 2 HD
+http://88.212.15.30:80/live/test_hbo2_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="3185" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/hbo3hd.png?raw=true", HBO 3 HD
+http://88.212.15.30:80/live/test_hbo3_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2888" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/cinemaxhd.png?raw=true", Cinemax HD
+http://88.212.15.30:80/live/test_cinemax_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2889" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/cinemax2hd.png?raw=true", Cinemax 2 HD
+http://88.212.15.30:80/live/test_cinemax2_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2959" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/filmboxhd.png?raw=true", Filmbox
+http://88.212.15.30:80/live/test_filmbox/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2926" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/filmboxextrahd.png?raw=true", Filmbox Extra HD
+http://88.212.15.30:80/live/test_film_boxextra_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2927" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/filmboxpremiumhd.png?raw=true", Filmbox Premium
+http://88.212.15.30:80/live/test_film_boxpremium_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="3021" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/filmboxfamily.png?raw=true", Filmbox Family
+http://88.212.15.30:80/live/test_filmbox_family_atk_1200/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/filmboxstars.png?raw=true", Filmbox Stars
+http://88.212.15.30:80/live/test_filmbox_plus_atk_1200/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1605" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDGQOIBC/973-film-hd.png", Film+
+http://88.212.15.30:80/live/test_film_plus_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2958" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/csfilmhd.png?raw=true", CS Film
+http://88.212.15.30:80/live/test_cs_film_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/cshistoryhd.png?raw=true", CS History
+http://88.212.15.30:80/live/test_cs_history_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/csmystery.png?raw=true", CS Mystery
+http://88.212.15.30:80/live/test_cs_mystery_avc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1455" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/historyhd.png?raw=true", History
+http://88.212.15.30:80/live/test_history/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1201" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/history2.png?raw=true", History 2
+http://88.212.15.30:80/live/test_h2/playlist.m3u8
+#EXTINF:0 type="stream" channelId="57" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/discoverycz.png?raw=true", Discovery
+http://88.212.15.30:80/live/test_discovery_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/investigationdiscovery.png?raw=true", ID Discovery
+http://88.212.15.30:80/live/test_id_hevc_atktv/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1189" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/crimeandinvestigation.png?raw=true", Crime and Investigation
+http://88.212.15.30:80/live/test_cai_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="165" group="TV" logo="https://tv.digigo.sk/images/logos/viasat-explore-hd.png", Viasat Explore
+http://88.150.230.35:8080/0de1c5e5a8f8de7395321539706ee102eccbc87e4b5ce2fe28308fd9f2a7baf3/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="172" group="TV" logo="https://tv.digigo.sk/images/logos/viasat-nature-hd.png", Viasat Nature
+http://88.150.230.35:8080/1552d324af1fa9871321ba50c6edeceec4ca4238a0b923820dcc509a6f75849b/index.m3u8?token=8cd42917778958ac401318dd4968d644
+http://88.212.15.30:80/live/viasat_nature_atk_tv/playlist.m3u8
+#EXTINF:0 type="stream" channelId="166" group="TV" logo="https://tv.digigo.sk/images/logos/viasat-history-hd.png", Viasat History
+http://142.202.51.5:11500/70a8479548233bb60bcb5ef9bd592b0d/mpegts?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="3025" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/spektrumhd.png?raw=true", Spektrum
+http://88.212.15.30:80/live/test_spektrum/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2935" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/spektrumhome.png?raw=true", Spektrum Home
+http://88.212.15.30:80/live/test_home_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="56" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/nationalgeographic.png?raw=true", National Geographic
+http://88.212.15.30:80/live/test_ngc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="164" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/nationalgeographicwildhdcz.png?raw=true", Nat Geo WILD
+http://88.212.15.30:80/live/test_ngw/playlist.m3u8
+#EXTINF:0 type="stream" channelId="50" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDFQSIBC/1227-animal-planet-hd.png", Animal Planet
+http://88.212.15.30:80/live/test_animal_planet_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2035" group="TV" logo="https://www.4ka.sk/media-files/filer_public/43/5f/435fcd86-62f0-4200-9dd0-7eda4108e84f/love_nature.png", Love Nature
+http://88.212.15.30:80/live/test_lovenature/playlist.m3u8
+#EXTINF:0 type="stream" channelId="672", DocuBox HD
+http://88.212.15.30:80/live/test_docubox_medium_atk/playlist.m3u8
+#EXTINF:0 type="stream" channelId="729", Fast&FunBox HD
+http://88.212.15.30:80/live/test_fast_and_funbox_medium_atk/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2807", Fashionbox HD
+http://88.212.15.30:80/live/test_fashionbox_medium_atk/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2807", TV Paprika
+http://88.212.15.30:80/live/test_parpika_tv_sd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="67" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/tlc.png?raw=true", TLC
+http://88.212.15.30:80/live/test_tlc_1200_atk/playlist.m3u8
+#EXTINF:0 type="stream" channelId="280" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/fashiontv.png?raw=true", Fashion TV
+http://88.212.15.30:80/live/test_fashion_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/fishingandhunting.png?raw=true", Fishinghunting
+http://88.212.15.30:80/live/test_fishing_hunting/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1578" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDBAMIBC/834-arena-sport-1-hd.png", Arena Sport 1
+http://88.212.15.30:80/live/test_arenasport/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1579" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDBQMIBC/835-arena-sport-2-hd.png", Arena Sport 2
+http://88.212.15.30:80/live/test_arenasport_dva/playlist.m3u8
+#EXTINF:0 type="stream" channelId="977" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDLQOIBC/983-sport-1-hd.png", Sport 1
+http://88.212.15.30:80/live/test_sport1_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDMAOIBC/984-sport-2-hd.png", Sport 2
+http://88.212.15.30:80/live/test_sport_2/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDJAMIBC/850-sport.png", RTVS Sport
+http://88.212.15.30:80/live/test_rtvs_sport_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/ctsporthd.png?raw=true", CT Sport HD
+http://88.212.15.30:80/live/test_ct_sport_hevc_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCYQMIBC/817-joj-sport-hd.png", JOJ Sport
+http://88.212.15.30:80/live/test_joj_sport_hd_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDZRIIBC/2675-joj-sport-2-hd.png", JOJ Sport 2
+http://88.212.15.30:80/live/joj_sport_2_avc/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/4902ba16-21c5-4dd0-bbb7-72018f06a323", Oneplay Sport 1
+http://142.202.51.5:11500/ba666fbedc44910a80f2ff3c7624b9c73a/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/44c708d8-4a8d-4a36-92b8-bcac72d6b02a", Oneplay Sport 2
+http://142.202.51.5:11500/2ca013cd44b712fbc117aae555a935f5a/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/d24465fd-a58b-4f1e-8f4d-a4d40c74e2bc", Oneplay Sport 3
+http://142.202.51.5:11500/f1f54bbfdcc13c7524b3b5c6b5d59eaee/mpegts?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/5b8c2b9d-a104-4142-a789-5ba814d7518d", Premier Sport 1
+http://142.202.51.5:11500/4b80b837634f6ec4e18ff6808a8104f2/video.m3u8?token=eb62c1b821052fb792d6184179368f4b
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/4f55909f-0e63-4b52-bf77-96d3ec7b45c4", Premier Sport 2
+http://142.202.51.5:11500/1566fbedc44910a80f2ff3c7624b9c73/video.m3u8?token=eb62c1b821052fb792d6184179368f4b
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/ebbca372-e895-4f0f-883f-97d32ce208c6", Premier Sport 3
+http://142.202.51.5:11500/cd28044bc76f2366988269e64b1cb507a/video.m3u8?token=eb62c1b821052fb792d6184179368f4b
+#EXTINF:0 type="stream" channelId="2933" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/181c10b7-8ee1-4da9-a46a-1c3d5ba77b9a", NOVA SPORT 1
+http://88.212.15.30:80/live/nova_sport_1_1200_atk/playlist.m3u8
+http://88.212.15.30:80/live/test_nova_sport_1_hevc/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2934" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/2397c1b4-bff6-4286-bef8-717826dd6c0f", NOVA SPORT 2
+http://142.202.51.5:11500/5461792935/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/b6ceab4b-b0d9-4e40-8f06-f05ebf41f080", NOVA SPORT 3
+http://142.202.51.5:11500/189fbvgherne65wq89z8uvsztzt24w8t/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/605ec7e3-0779-4eac-9a4b-13fb5e9dce6f", NOVA SPORT 4
+http://142.202.51.5:11500/sadcdsoirewfcsaldkwjetze984656e5/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/ab2b0cf2-7a11-4222-973f-69d8cc717658", NOVA SPORT 5
+http://142.202.51.5:11500/NS5/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/c741fb40-cc35-4a51-8429-961768b49100", NOVA SPORT 6
+http://142.132.205.242:8080/NS6/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="1350" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/d0d7d8f5-d1a4-4213-b7b2-60a03cdeaf0b", CANAL+ SPORT
 http://142.132.205.242:8080/CNLS1/video.m3u8?token=8cd42917778958ac401318dd4968d644
-#EXTINF:0  tvg-id="f11d75c207c920105493497a38a497ab" tvg-name="CANAL+ Sport 2 (SK)" channel-id="7" tvg-logo="https://picons.cmshulk.com/picons/canalplussport2hd.png" group-title="" catchup="vod" catchup-source="default",CANAL+ Sport 2 (SK)
+#EXTINF:0 type="stream" channelId="3193" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/d0d7d8f5-d1a4-4213-b7b2-60a03cdeaf0b", CANAL+ SPORT 2
 http://142.132.205.242:8080/CNLS2/video.m3u8?token=8cd42917778958ac401318dd4968d644
-#EXTINF:0 tvg-id="cbd5c7f941b30aa5ebe03004c9570e71" tvg-name="Filmbox HD" channel-id="8" tvg-logo="https://picons.cmshulk.com/picons/filmboxhd.png" group-title="" catchup="vod" catchup-source="default",Filmbox HD
-http://212.102.38.45/live/test_filmbox/playlist.m3u8
-#EXTINF:0 tvg-id="ad99a65b8a018d45a26debf94c20bc1f" tvg-name="Filmbox Stars" channel-id="9" tvg-logo="https://picons.cmshulk.com/picons/filmboxstars.png" group-title="" catchup="vod" catchup-source="default",Filmbox Stars
-http://212.102.38.45/live/test_filmbox_plus_atk_1200/playlist.m3u8
-#EXTINF:0 tvg-id="6a5461ba82cabcb95db5b344e6440e15" tvg-name="RTVS 24 HD" channel-id="10" tvg-logo="https://picons.cmshulk.com/picons/rtvs24hd.png" group-title="" catchup="vod" catchup-source="default",RTVS 24 HD
-http://212.102.38.45/live/test_trojka_25p/playlist.m3u8
-#EXTINF:0  tvg-id="09fc492d319c8813389e11c167b3a053" tvg-name="RTVS SPORT HD" channel-id="12" tvg-logo="https://picons.cmshulk.com/picons/rtvssporthd.png" group-title="" catchup="vod" catchup-source="default",RTVS SPORT HD
-http://212.102.38.45/live/test_rtvs_sport_hevc/playlist.m3u8
-#EXTINF:0  tvg-id="2499ae6dc5ab84ae26d72ddf3cfe2147" tvg-name="DOMA HD" channel-id="13" tvg-logo="https://picons.cmshulk.com/picons/domahd.png" group-title="" catchup="vod" catchup-source="default",DOMA HD
-http://212.102.38.45/live/test_doma_hd_hevc/playlist.m3u8
-#EXTINF:0  tvg-id="8a70396a7c6f6894cb24a3d30f24e5dd" tvg-name="DAJTO HD" channel-id="14" tvg-logo="https://picons.cmshulk.com/picons/dajtohd.png" group-title="" catchup="vod" catchup-source="default",DAJTO HD
-http://212.102.38.45/live/test_dajto_25p/playlist.m3u8
-#EXTINF:0  tvg-id="aa3d3d3842d31ad8771ae3c0b9c36b93" tvg-name="Markiza Krimi HD" channel-id="15" tvg-logo="https://picons.cmshulk.com/picons/markizakrimihd.png" group-title="" catchup="vod" catchup-source="default",Markiza Krimi HD
-http://212.102.38.45/live/test_markiza_krimi_hevc/playlist.m3u8
-#EXTINF:0  tvg-id="3bfc51074799dc287b11188784cad123" tvg-name="Markiza Klasik" channel-id="16" tvg-logo="https://picons.cmshulk.com/picons/markizaklasikhd.png" group-title="" catchup="vod" catchup-source="default",Markiza Klasik
-http://212.102.38.45/live/markiza_klasik_hevc/index.m3u8
-#EXTINF:0  tvg-id="2aa59e1b0cb34399f6ffc387e52a437b" tvg-name="JOJ PLUS HD" channel-id="17" tvg-logo="https://picons.cmshulk.com/picons/jojplushd.png" group-title="" catchup="vod" catchup-source="default",JOJ PLUS HD
-http://212.102.38.45/live/test_pluska_25p/playlist.m3u8
-#EXTINF:0  tvg-id="d4bf459e0c7e39dff6a5dbf3c7c76432" tvg-name="WAU HD" channel-id="18" tvg-logo="https://picons.cmshulk.com/picons/wauhd.png" group-title="" catchup="vod" catchup-source="default",WAU HD
-http://212.102.38.45/live/test_wau_25p/playlist.m3u8
-#EXTINF:0  tvg-id="ce6596c6d0663e92b84184a09fa033a0" tvg-name="JOJ 24 HD" channel-id="19" tvg-logo="https://picons.cmshulk.com/picons/joj24hd.png" group-title="" catchup="vod" catchup-source="default",JOJ 24 HD
-https://bratislava.fastad.pro/stream/hwxmuqg3i4dd2s2hbzrqaseqc4dd9qizv4ywvmw4wzs7i6mig5tuz87wz4ai93yys748p7efrzjwxt5hdxscgepmayzdn7nquq2kmvrm75m5a6b79ymr8n9dg78gats2nfnmqp5b6kzea33995ef8sqw2wkv4xa8nmp578iuaxaxebkw9rm9y.m3u8
-#EXTINF:0  tvg-id="76ec128b489da6c0e8b34681cba69914" tvg-name="TA3 HD" channel-id="20" tvg-logo="https://picons.cmshulk.com/picons/ta3hd.png" group-title="" catchup="vod" catchup-source="default",TA3 HD
-http://212.102.38.45/live/test_ta3_25p/playlist.m3u8
-#EXTINF:0  tvg-id="f89e92102807c12b0c230df08204f6e1" tvg-name="TV Lux HD" channel-id="21" tvg-logo="https://picons.cmshulk.com/picons/lux.png" group-title="" catchup="vod" catchup-source="default",TV Lux HD
-https://bratislava11.fastad.pro/stream/gbqc8rfvk7v7evmr8nan5p9df2wzbafde2t4zvm3nkg5rnnssxs86p8s3x33a9szv8p73xqisd54szrhsuqhcdsc99b9fid3phqdakyb2bdaft574tw5mr7428pmn3r4qyt87bzjr9q273fnxu2bnxkh5knujjn6vd8itjgafx2xqkcwg9j6b73a.m3u8
-#EXTINF:0  tvg-id="40fa56db0a620153f3c5b7c5209f3811" tvg-name="Spektrum Home" channel-id="22" tvg-logo="https://picons.cmshulk.com/picons/spektrumhome.png" group-title="" catchup="vod" catchup-source="default",Spektrum Home
-http://212.102.38.45/live/test_home_hevc/playlist.m3u8
-#EXTINF:0  tvg-id="c67c693cb75eeb49fcaf7b9bb215bc30" tvg-name="Filmbox Extra HD" channel-id="23" tvg-logo="https://picons.cmshulk.com/picons/filmboxextrahd.png" group-title="" catchup="vod" catchup-source="default",Filmbox Extra HD
-http://212.102.38.45/live/test_film_boxextra_hd_hevc/playlist.m3u8
-#EXTINF:0  tvg-id="c3f5686e3ee054e815be2b2d62e573d4" tvg-name="Filmbox Premium HD" channel-id="24" tvg-logo="https://picons.cmshulk.com/picons/filmboxpremiumhd.png" group-title="" catchup="vod" catchup-source="default",Filmbox Premium HD
-http://212.102.38.45/live/test_film_boxpremium_hd_hevc/playlist.m3u8
-#EXTINF:0  tvg-id="6055855c5c76d0e2895c0c6eac31dd59" tvg-name="Filmbox Family" channel-id="25" tvg-logo="https://picons.cmshulk.com/picons/filmboxfamilysd.png" group-title="" catchup="vod" catchup-source="default",Filmbox Family
-http://212.102.38.45/live/test_filmbox_family_atk_1200/playlist.m3u8
-#EXTINF:0  tvg-id="d214870d446a92f77571e873cfb90083" tvg-name="JOJ Cinema HD" channel-id="26" tvg-logo="https://picons.cmshulk.com/picons/jojcinema.png" group-title="" catchup="vod" catchup-source="default",JOJ Cinema HD
-http://212.102.38.45/live/test_joj_cinema_25p/playlist.m3u8
-#EXTINF:0  tvg-id="e3690b8f5892f1e960df1a54902cc848" tvg-name="CS Film" channel-id="27" tvg-logo="https://picons.cmshulk.com/picons/csfilm.png" group-title=""  catchup="vod" catchup-source="default",CS Film
-http://212.102.38.45/live/test_cs_film_avc_25p/playlist.m3u8
-#EXTINF:0  tvg-id="cda8915a6a66e3983f9698829827a594" tvg-name="Epic Drama HD" channel-id="28" tvg-logo="https://picons.cmshulk.com/picons/epicdramahd.png" group-title=""  catchup="vod" catchup-source="default",Epic Drama HD
-http://142.202.51.5:11500/674e4d8808aa33918f3c852f1b30d9e1/index.m3u8?token=8cd42917778958ac401318dd4968d644
-#EXTINF:0  tvg-id="db26b425bb37b5fdb3445bb589a92c81" tvg-name="Film+ SK" channel-id="29" tvg-logo="https://picons.cmshulk.com/picons/filmpluscze.png" group-title=""  catchup="vod" catchup-source="default",Film+ SK
-http://212.102.38.45/live/test_film_plus_25p/playlist.m3u8
-#EXTINF:0  tvg-id="aed303456cc767703f6e4d5f4b77f600" tvg-name="Film Europe+ HD" channel-id="30" tvg-logo="https://picons.cmshulk.com/picons/filmeuropehd.png" group-title=""  catchup="vod" catchup-source="default",Film Europe+ HD
-http://37.46.208.168:555/Film_Europe.m3u8?st=d3tMCCt_xZGszg-E1EAPzQ&e=1766832365
-#EXTINF:0  tvg-id="c9f6da8961cf54a0845ef8fcdb48244d" tvg-name="AXN CZ" channel-id="31" tvg-logo="https://picons.cmshulk.com/picons/axnczech.png" group-title=""  catchup="vod" catchup-source="default",AXN CZ
-http://212.102.38.45/live/test_axn/playlist.m3u8
-#EXTINF:0  tvg-id="f6779dc8e344509d9be58c69366df3c1" tvg-name="AXN Black Central Europe" channel-id="32" tvg-logo="https://picons.cmshulk.com/picons/axnblackcentraleurope.png" group-title=""  catchup="vod" catchup-source="default",AXN Black Central Europe
-http://88.150.230.35:8080/639f0768945edbfd2a2ec77e7649c688a87ff679a2f3e71d9181a67b7542122c/video.m3u8?token=8cd42917778958ac401318dd4968d644
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/20QF2OqSmjilgE4vyg7FMTtj9PY.jpg" group-title="",[Film] Strážcovia Galaxie 3 (2023)
-http://vodc-sk-bts-six.fastad.pro/dhls/39438/6vEMpbChxmFgo_OgCYpLTesA7_ZvyII3G9zKIFJoyWdSDIyIr0zoCv7Mi1fl79RFNJMUjsE8KVbuuPtlituaTA/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/f19u4TMvhCf756wMrU0IkYkbJ55.jpg" group-title="",[Film] Avatar:  Cesta vody (2022)
-http://vodc-sk-bts-six.fastad.pro/dhls/24763/hcL9loRH_3CMwheN1rfoq7KjSoFHV3yKyy7CiQ6UFHz_Ligex0_GC_pnqMw_06fYSxE3NJ2vFmns52R7Q0ubrA/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Assassin's Creed (2016)
-http://vodc-sk-bts-six.fastad.pro/dhls/19647/rJ5_OakqiI1w-dA0YTv7YGPbq8WsqjGJkSvlUWEjKjdL9rk4zjCy05jK2yl6_Yg-ysrMB-k1CvUF_xNio-jAfQ/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Pompeje (2014)
-http://vodc-sk-bts-six.fastad.pro/dhls/26497/2qN09QXmGKbKDkWt5t05_oo7DJENjHeKA44-qi9ta-GKwjs7wtq5vuUimZQ0jDiIa6Ibn8VYyoRUSEn3XvmHZw/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] John Wick (2014)
-http://vodc-sk-bts-six.fastad.pro/dhls/25548/U278PXQVg-CWAbmCV59GJJA0vpXfxQmtQrSpETFQxDJjLKD1KKh89Z9AJ2YUPnxYRYjsiYLyv8gtijxpcYrx_A/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Need for Speed (2014)
-http://vodc-sk-bts-six.fastad.pro/dhls/26006/1QRgg3WgCjfOUx-iAS34bFrPZIT2s9ELfa3SxpV3x1TA5wImkWeSwyoNppEBH6cpWAEsgIMc9sbjBaxq-BLR8g/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Enderova hra (2013)
-http://vodc-sk-bts-six.fastad.pro/dhls/25536/mZtmokpRoMjOKSF7bSKalMhbFsFzNM7bNYoaqrk34Zg4GbhROkWdk4iTXByghIbq9ilo1Q78X4AmR9qCKOIVxg/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Narnia:  Lev, šatník a čarodejnica (2005)
-http://vodc-sk-bts-six.fastad.pro/dhls/20002/UVdQG1v2YpZmKhRsx48hLZPd3n1pixYSQ7JmeCLLTBVfPH4zQYrwNFQdeMGQg6B490dBrCAFfjUwjuP1-Zmmmg/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Votrelec (1979)
-http://vodc-stu-six-bts.fastad.pro/dhls/18060/LUBuCARaVAtOBCqoM_lNXeKbUK1t4XrYqG-GwSLMTmHy0mOEOcA2uNaKuQGxH4QEoA7iNgp1quKpSlWdvxqwqg/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Votrelci (1986)
-http://vodc-stu-six-bts.fastad.pro/dhls/19634/pkVgeRwtGKs9RexDnPWNYlCq_lKB085Jbcnw3eNIlfT-1SVFNKgj8SmJ_IFykHP1qtUsrbV1Qqh5IjZWeZGVbA/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Votrelec³ (1992)
-http://vodc-sk-bts-six.fastad.pro/dhls/19632/_nlgsAshuZuMbC59ou2GJU7JQGJtttLDJims47k0NKexhLmrxBMb8EP_nQDlU4xWXfeIAfvHQdMvMb5mrX05tQ/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Votrelec Covenant (2017)
-http://vodc-stu-six-bts.fastad.pro/dhls/30839/FXN6FQzUNgrlFrib6ntsCUwAYbttKzYZ3Tu5XywZP779CH2DTAexOy4rssM4MWINyh2o37m1XHmTNpWWXlEwzA/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] X-Men 2 (2003)
-http://vodc-stu-six-bts.fastad.pro/dhls/31051/6LORwHTWmkkZ03-CIHAZVznhbDS_pmnA3wjv5tq0JqQyjHvTxhSTFeLp8Ffh3eZtgxd4Sbz1CYPQGiOIHPbjzQ/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Predátor (1987)
-http://vodc-stu-six-bts.fastad.pro/dhls/31082/Kq_4yMEtqduTi-5tR-yRdQe7OXCJOh6ANAJC1gOyzVmk9SvxW25xQO8R-zy8S60EiJUl4WbI4KOwdirGT-YX/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Barbar Conan (1982)
-http://vodc-stu-six-bts.fastad.pro/dhls/18715/nvIWhM_Tq22sM1iRH1rzuq_3nAjTtF5IHCeITJZngNipeVsz7K5GFFwTVZgZFkiyYocVvF-kpAlvKSsXpnr0Xg/master.m3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Film] Rambo: Do pekla a naspäť
-https://stitch-eu.fastad.pro/stream.m3u8?o=aHR0cDovL3RzMWNtMi1zay1idHMtc2l4LmZhc3RhZC5wcm8vZHZyZmFzdGFkcy84MzYvMTcyNTAxL2E1MDliODdjNWUxZjZkMjcvNndtOGhhdjN6eWptcnF2OThmdHQ5eHB6cm1lYWZiZ2tjenR0ZXVkYWY4eWM2eXVhZmQ1Y3V5Njh4Zzl2dmF2eHV4cWRxZmR0Z2c5c3B2dmp4M2ZzMnVlenAyY21hNGN1Nm1qZWU1aDh3OXpxOGpxeGVnOGtqNmd2eWR5aXB5eGRyeTVkNHg1NWhyNnMyNmp4OTl5d2Q3ZWN3ODN6N2l6ZWFwcmR5N21jdG15MmhkODYzM2dhPT09PS9tYXN0ZXIubTN1OA==&u=8111618206403704783&session=18170335586593989979&variant=2&c=3583&dt=1&p=15&e=891234344&aid=d3d12165-0d05-4867-9cc6-0b57bb2f134a&spm3u8
-#EXTINF:-1 media="playlist" tvg-id="movie" tvg-logo="" group-title="",[Stredovek] Statečné srdce
-https://prehrajto.cz/statecne-srdce-1995-uhdrdv-cz-en/68abfda1e98d7?do=download
+#EXTINF:0 type="stream" channelId="4388" group="TV" logo="https://cloudia.cms.nova.cz/r100xn/d0d7d8f5-d1a4-4213-b7b2-60a03cdeaf0b", CANAL+ SPORT 3
+http://142.132.205.242:8080/CNLS3/video.m3u8?token=8cd42917778958ac401318dd4968d644
+#EXTINF:0 type="stream" channelId="4627" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/automotorsporthd.png?raw=true", Auto Motor und Sport Channel
+http://88.212.15.30:80/live/test_ams/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDORAIBC/2141-tv-folklorika-hd.png", Folklorika HD
+http://88.212.15.30:80/live/test_folklorika_atktv/playlist.m3u8
+#EXTINF:0 type="stream" channelId="3154", 360 Tune Box
+http://88.212.15.30:80/live/test_360_tunebox_medium_atk/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1483", Stingray iConcerts
+http://88.212.15.30:80/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
+#EXTINF:0 type="stream" channelId="27", MUSICBOX
+http://88.212.15.30:80/live/mb_classic/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" logo="https://musicboxdance.com/music_box_dance_logo.png" background="https://musicboxdance.com/music_box_dance_logo.png", music box dance
+http://88.212.15.30:80/live/mb_dance/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" logo="https://musicboxhits.com/music_box_hits_logo.png" background="https://musicboxhits.com/music_box_hits_logo.png", music box hits
+http://88.212.15.30:80/live/mb_hits/index.m3u8
+#EXTINF:0 type="stream" channelId="", music box sexy
+http://88.212.15.30:80/live/mb_sexy/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCXQMIBC/815-jojko-hd.png", Jojko
+http://88.212.15.30:80/live/test_jojko_25p/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/640/rik.png?raw=true", RiK TV
+http://88.212.15.30:80/live/test_rik/playlist.m3u8
+#EXTINF:0 type="stream" channelId="19" group="TV" logo="https://github.com/MarhyCZ/picons/blob/master/1024/disneychannel.png?raw=true", Disney Channel
+http://88.212.15.30:80/live/test_disney/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1197" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BCQAMIBC/800-disney-junior.png", Disney Junior
+http://88.212.15.30:80/live/test_disney_junior/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2938" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDLAOIBC/982-minimax.png", Minimax
+http://88.212.15.30:80/live/test_minimax/playlist.m3u8
+#EXTINF:0 type="stream" channelId="191" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDKQOIBC/981-jimjam.png", JimJam
+http://88.212.15.30:80/live/test_jim_jam/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="TV" logo="https://staticeu.sweet.tv/images/cache/channel_icons/BDEASIBC/1224-lala-tv-hd.png", LALA TV
+http://88.212.15.30:80/live/test_lala_25p/playlist.m3u8
 
 
 
